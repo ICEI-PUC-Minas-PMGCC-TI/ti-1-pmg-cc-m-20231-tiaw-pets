@@ -9,13 +9,11 @@
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+*Ana Carolina Costa Coimbra
+*Gabriel Augusto de Souza e Silva Ferreira
+*Laura Caetano Costa
+*Lucas Lopes Melo Fonseca
 
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
 
 # Estrutura do Documento
 
@@ -326,10 +324,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
+|Processo de Design Thinkgin  | Miro |  [https://miro.com/XXXXXXX](https://miro.com/app/board/uXjVMYDTGwM=) | 
 |Repositório de código | GitHub | https://github.com/XXXXXXX | 
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
 |Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|Canais de comunicacao e compartilhamento de dados| WhatsApp e Discord |
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
