@@ -6,6 +6,7 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 
 * Ana Carolina Costa Coimbra
 * Gabriel Augusto de Souza e Silva Ferreira
+* José Carlos Ribeiro Minelli
 * Laura Caetano Costa
 * Lucas Lopes Melo Fonseca
 
