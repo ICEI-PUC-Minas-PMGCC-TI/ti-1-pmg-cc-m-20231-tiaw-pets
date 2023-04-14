@@ -99,5 +99,5 @@ feita no começo do projeto. Como inicio do projeto, decidimos dividir para entr
 |-----------|-------------------------|---------------|
 |Processo de Design Thinkgin  | Miro |(https://miro.com/app/board/uXjVMYDTGwM=) | 
 |Repositório de código | GitHub |(https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-pets/)| 
-|Protótipo Interativo | Figma | https://figma.com/XXXXXXX | 
+|Protótipo Interativo | Figma | https://www.figma.com/file/WkTkGR3MRwUpBdM1Mjb0vE/Untitled?node-id=5-145&t=6c4zrA328DnhKQXt-0 | 
 |Canais de comunicacao e compartilhamento de dados| WhatsApp e Discord |
