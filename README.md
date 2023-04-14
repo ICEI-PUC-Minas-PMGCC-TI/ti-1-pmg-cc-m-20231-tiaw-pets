@@ -51,3 +51,53 @@ tanto quanto Influencer digitais que possam utilizar do nosso software para solu
 A abrangência do Público-Alvo decorre do fato de que o projeto atinge a qualquer pessoa que se vê na situação
 de adotar/ajudar um animal sem lar.
 
+# Especificações do Projeto
+
+## Personas, Empatia e Proposta de Valor
+
+## Histórias de Usuários
+
+## Requisitos
+
+### Requisitos Funcionais
+
+### Requisitos não Funcionais
+
+## Restrições
+
+# Projeto de Interface
+
+## User Flow
+
+## Wireframes
+
+# Metodologia
+
+O grupo utilizou o metodo moderno de desenvolmimento de projetos baseado em estudos de Design Thinking
+para melhor compreensãoda problemática e dividir e trabalhar de maneira ordenada e eficiente, com uma divisão 
+de trabalho bem estruturada e coesa.
+
+## Divisão de Papéis
+
+Todos os membros do grupo tem voz ativa igual, sendo as etapas dividas para cada um dentro de consensos baseados
+na proficiência de cada um e suas preferencias. A partir da divisão cada membro se torna responsável e mandante por sua parte
+o que não impede de ser ajudado se necessário. Essa divisão tambem é com base nos estudos de Design Thinking e avaliação de perfil
+feita no começo do projeto. Como inicio do projeto, decidimos dividir para entrega da Sprint 1 da seguine maneira:
+
+* Ana Carolina Costa Coimbra: Slide para apresentação do projeto no dia 16/04
+* Gabriel Augusto de Souza e Silva Ferreira: Relatórios GitHub, Organização da Apresentação
+* José Carlos Ribeiro Minelli: Relatórios GitHub
+* Laura Caetano Costa: Entrega do Miro e Relatórios GitHub, Organização da Apresentação
+* Lucas Lopes Melo Fonseca: Relatórios GitHub, Organização da Apresentação
+
+
+## Ferramentas
+
+
+
+| Ambiente  | Plataforma              |Link de Acesso |
+|-----------|-------------------------|---------------|
+|Processo de Design Thinkgin  | Miro |(https://miro.com/app/board/uXjVMYDTGwM=) | 
+|Repositório de código | GitHub |(https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-pets/)| 
+|Protótipo Interativo | Figma | https://figma.com/XXXXXXX | 
+|Canais de comunicacao e compartilhamento de dados| WhatsApp e Discord |
