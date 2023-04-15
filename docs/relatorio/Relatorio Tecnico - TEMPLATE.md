@@ -5,7 +5,7 @@
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  Ciência da computação ......
 
 ## Participantes
 
