@@ -26,25 +26,25 @@ Projeto originado na PUC Minas no Curso de Ciências da computaçao
 
 ### Problema
 
-Procura de lar para pets abandonados e conexão com possiveis tutores.
+> Procura de lar para pets abandonados e conexão com possiveis tutores.
 Procura de animais para adoção e conexão com doadores ( ONGs, ou animais sem um lar)
 Falta de conhecimento sobre como adotar um animal abandonado ou como ajudar a encontrar um lar para o animal.
 
 ### Objetivos
 
-Desenvolver um software que possa conectar pessoas a procura de um novo 
+> Desenvolver um software que possa conectar pessoas a procura de um novo 
 pet a animais que precisam de um lar, alem de ajudar a encontrar novos lares para animais resgatados
 
 ### Justificativa
 
-A intenção do projeto é causar o encontro entre pessoas que querem adotar um pet e pets que precisam de um lar,
+> A intenção do projeto é causar o encontro entre pessoas que querem adotar um pet e pets que precisam de um lar,
 dessa maneira resolvendo a dor de pessoas que sofrem dois problemas diferentes, sendo que uma tem a solução da outra. 
 Basta haver a conexão, o que é o mais complexo e dificil de acontecer de acordo com nossas pesquisas, por isso o
 desenvolvimento do software é necessário
 
 ### Público-Alvo
 
-O projeto é voltado tanto para ONGs de animas, quanto para pessoas comuns com o desejo de adotar um Pet.
+> O projeto é voltado tanto para ONGs de animas, quanto para pessoas comuns com o desejo de adotar um Pet.
 A area de influencia do projeto é baseada em Veterinarios e pessoas voltadas para o bem estar dos animais
 tanto quanto Influencer digitais que possam utilizar do nosso software para solucionar seu problema.
 A abrangência do Público-Alvo decorre do fato de que o projeto atinge a qualquer pessoa que se vê na situação
