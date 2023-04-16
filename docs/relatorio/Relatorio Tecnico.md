@@ -85,14 +85,8 @@ Será abordado de forma aprofundada os resultados obtidos através do metodo de 
 
 ## Personas, Empatia e Proposta de Valor
 
-
-> ![Persona 1](images/persona1.png)
-
-
-> ![Persona 2](images/persona2.png)
-
-
-> ![Persona 3](images/persona3.png)
+Temos 3 personas com suas respectivas propostas de valores:
+![Persona 1](images/personas.png)
 
 
 ## Histórias de Usuários
