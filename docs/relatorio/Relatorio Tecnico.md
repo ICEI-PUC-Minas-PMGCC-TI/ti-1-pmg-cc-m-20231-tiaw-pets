@@ -3,8 +3,7 @@
 
 ## ......  Adote Uma Patinha ......
 
-`CURSO` 
-......  Ciência da computação ......
+Curso: Ciência da computação 
 
 ## Participantes
 
