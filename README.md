@@ -50,21 +50,70 @@ tanto quanto Influencer digitais que possam utilizar do nosso software para solu
 A abrangência do Público-Alvo decorre do fato de que o projeto atinge a qualquer pessoa que se vê na situação
 de adotar/ajudar um animal sem lar.
 
-## Especificações do Projeto
+# Especificações do Projeto
 
-### Personas, Empatia e Proposta de Valor
+Será abordado de forma aprofundada os resultados obtidos através do metodo de designthink, utilizado para o desenvolvimento do projeto desde a etapa de entendimento até o planejamento da etapa técnica. Além disso, foram realizadas entrevistas qualitativas e quantitativas, mapa de personas e de ideias. Desta forma, é possível mapear as reais necessidades dos possíveis usuários e implementar recursos funcionais que possam suprir as demandas dos mesmos.
 
-![Personas](docs/relatorio/images/personas.png)
+## Personas, Empatia e Proposta de Valor
 
-### Histórias de Usuários
+Temos 3 personas com suas respectivas propostas de valores:
+![Persona 1](images/personas.png)
 
-### Requisitos
 
-#### Requisitos Funcionais
+## Histórias de Usuários
 
-#### Requisitos não Funcionais
+Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
-### Restrições
+### Valéria
+>Como veterinária, eu vejo o site como um facilitador entre meus clientes e os pets que eles buscam. Quero trabalhar com ele para oferecer minha ajuda na escolha de um animalzinho que se encaixe na vida de seus tutores, para que eles possam ter uma vida feliz e saudável.
+
+### Agnes
+>No papel de adotante, eu acho ótimo ter um espaço onde eu possa buscar pets compatíveis com meu estilo de vida de forma pratica e tão aberta. O contato com veterinários e ONGs é essencial para a escolha de um animalzinho para mim.
+
+### Roberto
+>Sou uma pessoa ocupada, e como doador, a praticidade do site em ajudar na adoção do meu cãozinho foi um fator decisivo para mim. Saber das garantias e suporte que o site oferece me deixaram muito mais tranquilo com relação à doação do meu pet.
+
+
+## Requisitos
+
+As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+
+### Requisitos Funcionais
+
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-001| Permitir cadastro de animal        | ALTA  | 
+|RF-002| Permitir cadastro de doador        | ALTA  |
+|RF-003| Permitir cadastro de adotante      | ALTA  |
+|RF-004| Possuir um filtro de animais       | MÉDIA |
+|RF-005| Possuir uma barra de busca         | BAIXA |
+|RF-006| Possuir um mural clícavel de foto  | MÉDIA |
+
+
+
+
+### Requisitos não Funcionais
+
+|ID     | Descrição do Requisito                                                      |Prioridade |
+|-------|-------------------------|----|
+|RNF-001| O sistema deve ser responsivo                                                 | ALTA  | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s                         | BAIXA | 
+|RNF-003| A interface deve ser intuitiva                                                | ALTA  | 
+|RNF-004| O código deve ser documentado                                                 | MÉDIA | 
+|RNF-005| O sistema deve apresentar segurança com as informações fornecidas pelo usuário| ALTA  | 
+
+
+## Restrições
+
+O projeto está restrito pelos itens apresentados na tabela a seguir.
+
+|ID| Restrição                                             |
+|--|-------------------------------------------------------|
+|01| O projeto deverá ser entregue até o final do semestre |
+|02| Não pode ser desenvolvido um módulo de backend        |
+|03| Restringir formatos diferentes de PNG, JPG e JPEG     |
+|04| Acesso a informações por usuários não autorizados     |
+
 
 ## Projeto de Interface
 
