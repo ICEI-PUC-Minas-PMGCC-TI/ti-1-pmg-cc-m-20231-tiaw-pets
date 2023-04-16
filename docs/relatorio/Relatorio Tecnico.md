@@ -99,10 +99,14 @@ Será abordado de forma aprofundada os resultados obtidos através do metodo de 
 
 Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                        |
-|--------------------|------------------------------------|-----------------------------------------------|
-|DOADOR              | Cadastrar meu animal               | Encontrar um adotante                         |
-|ADOTANTE            | Cadastrar meu perfi                | Encontar um animal que atenda as necessidades |
+### Valéria
+Como veterinária, eu vejo o site como um facilitador entre meus clientes e os pets que eles buscam. Quero trabalhar com ele para oferecer minha ajuda na escolha de um animalzinho que se encaixe na vida de seus tutores, para que eles possam ter uma vida feliz e saudável.
+
+### Agnes
+No papel de adotante, eu acho ótimo ter um espaço onde eu possa buscar pets compatíveis com meu estilo de vida de forma pratica e tão aberta. O contato com veterinários e ONGs é essencial para a escolha de um animalzinho para mim.
+
+### Roberto
+Sou uma pessoa ocupada, e como doador, a praticidade do site em ajudar na adoção do meu cãozinho foi um fator decisivo para mim. Saber das garantias e suporte que o site oferece me deixaram muito mais tranquilo com relação à doação do meu pet.
 
 
 ## Requisitos
