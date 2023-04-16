@@ -1,10 +1,9 @@
 # Informações do Projeto
-`TÍTULO DO PROJETO`  
 
-......  Adote Uma Patinha ......
+
+#......  Adote Uma Patinha ......
 
 `CURSO` 
-
 ......  Ciência da computação ......
 
 ## Participantes
