@@ -11,6 +11,7 @@
 
 *Ana Carolina Costa Coimbra
 *Gabriel Augusto de Souza e Silva Ferreira
+*José Carlos Minelli 
 *Laura Caetano Costa
 *Lucas Lopes Melo Fonseca
 
@@ -80,6 +81,8 @@ de adotar/ajudar um animal sem lar.
  
 # Especificações do Projeto
 
+Será abordado de forma aprofundada os resultados obtidos através do metodo de designthink, utilizado para o desenvolvimento do projeto desde a etapa de entendimento até o planejamento da etapa técnica. Além disso, foram realizadas entrevistas qualitativas e quantitativas, mapa de personas e de ideias. Desta forma, é possível mapear as reais necessidades dos possíveis usuários e implementar recursos funcionais que possam suprir as demandas dos mesmos.
+
 ## Personas, Empatia e Proposta de Valor
 
 
@@ -94,23 +97,13 @@ de adotar/ajudar um animal sem lar.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                        |
+|--------------------|------------------------------------|-----------------------------------------------|
+|DOADOR              | Cadastrar meu animal               | Encontrar um adotante                         |
+|ADOTANTE            | Cadastrar meu perfi                | Encontar um animal que atenda as necessidades |
 
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 ## Requisitos
 
@@ -120,37 +113,25 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir cadastro de animal        | ALTA  | 
+|RF-002| Permitir cadastro de doador        | ALTA  |
+|RF-003| Permitir cadastro de adotante      | ALTA  |
+|RF-004| Possuir um filtro de animais       | MÉDIA |
+|RF-005| Possuir uma barra de busca         | BAIXA |
+|RF-006| Possuir um mural clícavel de foto  | MÉDIA |
+
+
 
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
+|ID     | Descrição do Requisito                                                      |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|RNF-001| O sistema deve ser responsivo                                                 | ALTA  | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s                         | BAIXA | 
+|RNF-003| A interface deve ser intuitiva                                                | ALTA  | 
+|RNF-004| O código deve ser documentado                                                 | MÉDIA | 
+|RNF-005| O sistema deve apresentar segurança com as informações fornecidas pelo usuário| ALTA  | 
 
 
 ## Restrições
@@ -161,14 +142,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
+|03| Restringir formatos diferentes de PNG, JPG e JPEG     |
+|04| Acesso a informações por usuários não autorizados     |
 
 
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 
 # Projeto de Interface
