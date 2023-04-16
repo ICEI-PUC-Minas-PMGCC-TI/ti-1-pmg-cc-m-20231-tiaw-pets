@@ -71,7 +71,7 @@ de adotar/ajudar um animal sem lar.
 
 ## User Flow
 
-> ![UserFlow do projeto](docs/relatorio/UserFlow.png)
+> ![UserFlow do projeto](docs/relatorio/images/UserFlow.png)
 
 > Mapa do UserFlow principal do projeto (pode sofrer pequenas alterações ao longo do desenvolvimento).
 
@@ -79,7 +79,7 @@ de adotar/ajudar um animal sem lar.
 ## Wireframes
 
 
-> ![Wireframe do projeto](docs/relatorio/Wireframe.png)
+> ![Wireframe do projeto](docs/relatorio/images/Wireframe.png)
 
 > Aqui tem o wireframe da página principal, cadastro de pet, cadastro de pessoa e perfil respectivamente.
 
