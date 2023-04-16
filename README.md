@@ -54,7 +54,7 @@ de adotar/ajudar um animal sem lar.
 
 ### Personas, Empatia e Proposta de Valor
 
-> ![Personas](docs/relatorio/images/personas.png)
+![Personas](docs/relatorio/images/personas.png)
 
 ### Histórias de Usuários
 
