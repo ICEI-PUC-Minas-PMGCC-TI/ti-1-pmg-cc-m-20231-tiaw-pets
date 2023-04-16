@@ -57,7 +57,7 @@ Será abordado de forma aprofundada os resultados obtidos através do metodo de 
 ## Personas, Empatia e Proposta de Valor
 
 Temos 3 personas com suas respectivas propostas de valores:
-![Personas](images/personas.png)
+![Personas](images/personas1.png)
 
 
 ## Histórias de Usuários
