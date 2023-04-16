@@ -152,17 +152,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## User Flow
 
-> ![UserFlow do projeto](images/UserFlow.png)
-
-> Mapa do UserFlow principal do projeto (pode sofrer pequenas alterações ao longo do desenvolvimento).
-
+ Mapa do UserFlow principal do projeto (pode sofrer pequenas alterações ao longo do desenvolvimento).
+ ![UserFlow do projeto](images/UserFlow.png)
 
 ## Wireframes
 
-
-> ![Wireframe do projeto](images/Wireframe.png)
-
-> Aqui tem o wireframe da página principal, cadastro de pet, cadastro de pessoa e perfil respectivamente.
+ Aqui tem o wireframe da página principal, cadastro de pet, cadastro de pessoa e perfil respectivamente.
+ ![Wireframe do projeto](images/Wireframe.png)
 
 # Metodologia
 
