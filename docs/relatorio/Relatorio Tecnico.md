@@ -80,12 +80,6 @@ de adotar/ajudar um animal sem lar.
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
-
 ## Personas, Empatia e Proposta de Valor
 
 
