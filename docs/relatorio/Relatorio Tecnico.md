@@ -230,7 +230,7 @@ feita no começo do projeto. Como inicio do projeto, decidimos dividir para entr
 
 * Ana Carolina Costa Coimbra: Slide para apresentação do projeto no dia 16/04
 * Gabriel Augusto de Souza e Silva Ferreira: Relatórios GitHub, Organização da Apresentação
-* José Carlos Ribeiro Minelli: Relatórios GitHub
+* José Carlos Ribeiro Minelli: Relatórios GitHub, projeto de interface
 * Laura Caetano Costa: Entrega do Miro e Relatórios GitHub, Organização da Apresentação
 * Lucas Lopes Melo Fonseca: Relatórios GitHub, Organização da Apresentação
 
