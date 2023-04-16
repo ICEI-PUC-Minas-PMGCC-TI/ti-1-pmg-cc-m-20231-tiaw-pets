@@ -67,9 +67,21 @@ de adotar/ajudar um animal sem lar.
 
 # Projeto de Interface
 
+> Todas essas interfaces foram elaboradas de forma a atender aos requisitos funcionais identificados durante o processo de análise da solução. Foram levados em consideração princípios de usabilidade e integração, garantindo que as interfaces sejam eficientes e intuitivas, de forma a fornecer uma solução completa e eficaz para os usuários.
+
 ## User Flow
 
+> ![UserFlow do projeto](docs/relatorio/UserFlow.png)
+
+> Mapa do UserFlow principal do projeto (pode sofrer pequenas alterações ao longo do desenvolvimento).
+
+
 ## Wireframes
+
+
+> ![Wireframe do projeto](docs/relatorio/Wireframe.png)
+
+> Aqui tem o wireframe da página principal, cadastro de pet, cadastro de pessoa e perfil respectivamente.
 
 # Metodologia
 
