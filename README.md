@@ -87,7 +87,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003| Permitir cadastro de adotante      | ALTA  |
 |RF-004| Possuir um filtro de animais       | MÉDIA |
 |RF-005| Possuir uma barra de busca         | BAIXA |
-|RF-006| Possuir um mural clícavel de foto  | MÉDIA |
+|RF-006| Possuir um mural clicável de foto  | MÉDIA |
 
 
 
