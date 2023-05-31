@@ -162,4 +162,16 @@ feita no começo do projeto. Como inicio do projeto, decidimos dividir para entr
 |Processo de Design Thinkgin  | Miro |(https://miro.com/app/board/uXjVMYDTGwM=) | 
 |Repositório de código | GitHub |(https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-pets/)| 
 |Protótipo Interativo | Figma | https://www.figma.com/file/WkTkGR3MRwUpBdM1Mjb0vE/Untitled?node-id=5-145&t=6c4zrA328DnhKQXt-0 | 
-|Canais de comunicacao e compartilhamento de dados| WhatsApp e Discord |
+        |Canais de comunicacao e compartilhamento de dados| WhatsApp e Discord |
+
+
+## Controle de Versão
+
+A ferramenta de controle de versão adotada no projeto foi o
+[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
+foi utilizado para hospedagem do repositório `upstream`. O controle de versão foi feito em um [Repositório Local](https://github.com/joseminelli/adote-sua-patinha) usando o branch "master" como versão testada e o branch "teste" como a versão que pode haver instabilidades e alguns bugs.
+
+> **Links Úteis**:
+> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
+> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
+> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
