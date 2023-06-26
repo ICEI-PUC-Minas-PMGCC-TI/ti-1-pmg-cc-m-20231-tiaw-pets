@@ -1,0 +1,244 @@
+#modalbtn {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  padding: 14px 22px;
+  border: none;
+  background: #4070f4;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 100ms ease;
+}
+#modalbtn:hover {
+  background-color: #1e4cca;
+}
+#modalbtn2 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #212121;
+  padding: 14px 22px;
+  border: none;
+  background: none;
+  border: 3px solid #4070f4;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 100ms ease;
+}
+#modalbtn2:hover {
+  color: #fff;
+  background-color: #4070f4;
+  border: 0px solid #4070f4;
+}
+#cancelbtn {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  padding: 14px 22px;
+  border: none;
+  background: #f44040;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#cancelbtn:hover {
+  background-color: #f22626;
+}
+#modalbtn.show-modal,
+#modalbtn2.show-modal,
+.modal-box {
+  z-index: 1000;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+#modalNovo.active .show-modal {
+  display: none;
+}
+.overlay {
+  z-index: 1000;
+  position: fixed;
+  filter: blur(0px);
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 300ms;
+}
+#modalNovo.active .overlay {
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 380px;
+  width: 100%;
+  padding: 30px 20px;
+  border-radius: 24px;
+  background-color: #ffe58b;
+  box-shadow: 0 40px 60px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  transform: translate(-50%, -50%) scale(1.2);
+}
+section.active .modal-box {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+}
+.modal-box i {
+  font-size: 70px;
+  color: #4070f4;
+}
+.modal-box h2 {
+  margin-top: 0px;
+  font-size: 25px;
+  font-weight: 500;
+  color: #333;
+}
+#dropdown {
+  margin-top: 0%;
+  margin-left: -60%;
+  color: #333;
+}
+#dropdownt {
+  margin-left: -72%;
+}
+
+#dropdown:focus {
+  background: #ffe58b;
+  outline: none;
+}
+#input1 {
+  margin-top: 0%;
+  color: #333;
+}
+#input2 {
+  margin-top: 0%;
+  color: #333;
+}
+.modal-box h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  text-align: center;
+}
+.modal-box .modalp {
+  display: inline-block;
+  margin-left: -83%;
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+}
+.modal-box .buttons {
+  margin-top: 25px;
+}
+.modal-box button {
+  font-size: 14px;
+  padding: 6px 12px;
+  margin: 0 10px;
+}
+@media screen and (max-width: 576px) {
+  .modal-box {
+    position: fixed;
+    left: 50%;
+    top: 57%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #modalbtn {
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  #modalbtn2 {
+    font-weight: 500;
+    font-size: 14.5px;
+  }
+  .modal-box h2 {
+    margin-top: 0px;
+    font-size: 23px;
+    font-weight: 500;
+    color: #333;
+  }
+  .modal-box h3 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+    text-align: center;
+  }
+  .modal-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 380px;
+    width: 90%;
+    padding: 30px 20px;
+    border-radius: 24px;
+    background-color: #ffe58b;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+}
+@media screen and (max-width: 1700px) {
+  .modal-box {
+    position: fixed;
+    left: 50%;
+    top: 58%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media screen and (max-width: 390px) {
+
+  #modalbtn {
+    font-weight: 500;
+    font-size: 13px;
+  }
+
+  #modalbtn2 {
+    font-weight: 500;
+    font-size: 13px;
+  }
+}
+@keyframes shake {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  10% {
+    transform: translate(-52%, -50%) rotate(1deg);
+  }
+  30% {
+    transform: translate(-47%, -50%) rotate(0deg);
+  }
+  40% {
+    transform: translate(-49%, -50%) rotate(1deg);
+  }
+  50% {
+    transform: translate(-52%, -50%) rotate(-1deg);
+  }
+  70% {
+    transform: translate(-47%, -50%) rotate(1deg);
+  }
+  80% {
+    transform: translate(-49%, -50%) rotate(-1deg);
+  }
+  90% {
+    transform: translate(-52%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
