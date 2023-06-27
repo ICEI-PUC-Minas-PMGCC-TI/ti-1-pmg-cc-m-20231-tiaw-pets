@@ -209,12 +209,12 @@ foi utilizado para hospedagem do repositório `upstream`. O controle de versão 
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Diante de tudo que foi exposto acerca do impasse, o grupo criou a aplicação web "Adote sua Patinha" para atuar como um instrumento mediador na situação de adotantes e doadores. Nesse sentido, o objetivo central do produto é divulgar animais que estão sendo doados para possíveis adotantes.
 
 ## Tecnologias Utilizadas
 
 ......  COLOQUE AQUI O SEU TEXTO ......
-
+Afim de alcançar o objetivo proposto e construir o web app com todas as funcionalidades planejadas foram utilizadas diversas tecnologias,cada uma com sua devida aplicação. Em primeira ánalise, foi utilizado o método de Design Thinking para entender as demandas do possível usúario e elaborar de forma assertiva as funcionalidades a serem implementadas. A respeito da elaboração concreta da aplicação web, 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
 > tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
