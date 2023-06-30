@@ -221,9 +221,10 @@ Afim de alcançar o objetivo proposto e construir o web app com todas as funcion
 > frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
 > Apresente também uma figura explicando como as tecnologias estão
 > relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
+> conduzida, por onde ela passa até retornar uma resposta ao usuário. PAGINA INICIAL(HTML CSS JS)->CADASTRO salva em local sotrage-> HOME pega os pets do json e exibe
+>                                                                                                                             //pagina de perfil(exibe o local storage do cadastro)
+>                                                                                                                             // forum( salva em local storage e exibe na propria pagina)                                     
+> Inclua os diagramas de User Flow, esboços criados pelo grupo 
 > (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
 > item textualmente comentando e complementando o que está apresentado
 > nas imagens.
@@ -237,7 +238,7 @@ Afim de alcançar o objetivo proposto e construir o web app com todas as funcion
 > 
 > **Exemplo do diagrama de Arquitetura**:
 > 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)html css js local storage ()
 
 
 # Avaliação da Aplicação
@@ -246,7 +247,7 @@ Afim de alcançar o objetivo proposto e construir o web app com todas as funcion
 
 > Apresente os cenários de testes utilizados na realização dos testes da
 > sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
+> sendo satisfeitos.   FALTA FOTO,FALTA DADOS, COLOCAR MUITO TEXTO,IMAGEM EM ESCALAS DIFERENTES,VERIFICAÇAO D LOGIN
 
 ## Plano de Testes
 
@@ -256,21 +257,12 @@ Afim de alcançar o objetivo proposto e construir o web app com todas as funcion
 > tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
 > de usuários que foi escolhido para participar do teste e as
 > ferramentas utilizadas.
-> 
+>  TESTE MANUAL E FEITO PELO GRUPO, TESTOU COM OUTROS USUARIO EXTERNOS
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
 > - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
 > -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
 
-## Ferramentas de Testes (Opcional)
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
 ## Registros de Testes
 
@@ -278,14 +270,14 @@ Afim de alcançar o objetivo proposto e construir o web app com todas as funcion
 
 > Discorra sobre os resultados do teste. Ressaltando pontos fortes e
 > fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
+> esses pontos nas próximas iterações. Apresente as falhas detectadas e RESULTADOS DOS TESTES
 > as melhorias geradas a partir dos resultados obtidos nos testes.
 
 
 # Referências
 
 ......  COLOQUE AQUI O SEU TEXTO ......
-
+PINTEREST FIGMA 
 > Inclua todas as referências (livros, artigos, sites, etc) utilizados
 > no desenvolvimento do trabalho.
 > 
