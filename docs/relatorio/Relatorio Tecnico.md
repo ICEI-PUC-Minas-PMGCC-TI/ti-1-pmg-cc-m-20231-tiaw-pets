@@ -38,13 +38,11 @@ Curso: Ciência da computação
   - [Divisão de Papéis](#divisão-de-papéis)
   - [Ferramentas](#ferramentas)
   - [Controle de Versão](#controle-de-versão)
-- [**############## SPRINT 1 ACABA AQUI #############**](#-sprint-1-acaba-aqui-)
 - [Projeto da Solução](#projeto-da-solução)
   - [Tecnologias Utilizadas](#tecnologias-utilizadas)
   - [Arquitetura da solução](#arquitetura-da-solução)
 - [Avaliação da Aplicação](#avaliação-da-aplicação)
   - [Plano de Testes](#plano-de-testes)
-  - [Ferramentas de Testes (Opcional)](#ferramentas-de-testes-opcional)
   - [Registros de Testes](#registros-de-testes)
 - [Referências](#referências)
 
@@ -196,16 +194,7 @@ feita no começo do projeto. Como inicio do projeto, decidimos dividir para entr
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório `upstream`. O controle de versão foi feito em um [Repositório Local](https://github.com/joseminelli/adote-sua-patinha) usando o branch "master" como versão testada e o branch "teste" como a versão que pode haver instabilidades e alguns bugs.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
-
-# **############## SPRINT 1 ACABA AQUI #############**
-
+[Git](https://git-scm.com/). O controle de versão foi feito em um [Repositório Local](https://github.com/joseminelli/adote-sua-patinha) usando o branch "master" como versão testada e o branch "teste" como a versão que pode haver instabilidades e alguns bugs.
 
 # Projeto da Solução
 
@@ -214,37 +203,74 @@ Diante de tudo que foi exposto acerca do impasse, o grupo criou a aplicação we
 ## Tecnologias Utilizadas
 
 Afim de alcançar o objetivo proposto e construir o web app com todas as funcionalidades planejadas foram utilizadas diversas tecnologias,cada uma com sua devida aplicação. Em primeira ánalise, foi utilizado o método de Design Thinking para entender as demandas do possível usúario e elaborar de forma assertiva as funcionalidades a serem implementadas. A respeito da elaboração concreta da aplicação web, foi utilizado o vs code para fins de desenvolvimento de codigo nas linguagens html css e javascript.Além disso, cabe ressaltar o uso da plataforma Figma para os projetos de interface, e do site Pinterest para a procura de imagens que simulem animais cadastrados.
- DIAGRAMA DO USO 
+
+### DIAGRAMA DO USO 
 O fluxo do site se inicia na página inicial que apresenta as opções de cadastro ou login. Em caso de primeira visita, após preencher o formulário de cadastro e enviar as informações o usuário é redirecionado para a página de mural, que expõe os pets cadastrados e permite o redirecionamento ao perfil detalhado dos mesmos. Apartir deste ponto, o fluxo é livre e o usuário pode optar por navegar pelo mural usufuindo das funcionalidades oferecidas pelo filtro, visualizar suas informações na página de perfil, cadastrar novos pets vinculados a sua conta, ou visitar o fórum de perguntas.
 
 TELA INICIAL (HTML, CSS e JavaScript):
-Essa página é a primeira que o usuário acessa ao entrar no site. Ela é construída utilizando HTML, CSS e JavaScript e tem como objetivo apresentar uma visão geral do sistema e fornecer opções de navegação para as demais páginas.
+>Essa página é a primeira que o usuário acessa ao entrar no site. Ela é construída utilizando HTML, CSS e JavaScript e tem como objetivo apresentar uma visão geral do sistema e fornecer opções de navegação para as demais páginas.
 
 FORMULÁRIO DE CADASTRO (HTML, CSS e JavaScript):
-Nessa página, os usuários podem preencher um formulário com informações pessoais e detalhes sobre o animal que desejam doar. Os dados fornecidos pelo usuário são salvos em local storage, permitindo que sejam acessados posteriormente.
+>Nessa página, os usuários podem preencher um formulário com informações pessoais e detalhes sobre o animal que desejam doar. Os dados fornecidos pelo usuário são salvos em local storage, permitindo que sejam acessados posteriormente.
 
 MURAL (HTML, CSS e JavaScript):
-Essa página exibe uma lista de pets cadastrados no sistema, obtidos a partir de um arquivo JSON. Os pets são apresentados de forma organizada e detalhada, fornecendo informações sobre cada animal, como raça, idade e descrição. O objetivo do mural é possibilitar que os usuários interessados em adotar um animal possam visualizar as opções disponíveis.
+>Essa página exibe uma lista de pets cadastrados no sistema, obtidos a partir de um arquivo JSON. Os pets são apresentados de forma organizada e detalhada, fornecendo informações sobre cada animal, como raça, idade e descrição. O objetivo do mural é possibilitar que os usuários interessados em adotar um animal possam visualizar as opções disponíveis.
 
 PERFIL (HTML, CSS e JavaScript):
-Essa página recupera as informações de cadastro armazenadas no local storage e as exibe de forma personalizada para cada usuário. É uma página individualizada que permite ao usuário verificar e editar seus dados, incluindo informações de contato e detalhes sobre os animais que ele cadastrou para doação.
+>Essa página recupera as informações de cadastro armazenadas no local storage e as exibe de forma personalizada para cada usuário. É uma página individualizada que permite ao usuário verificar e editar seus dados, incluindo informações de contato e detalhes sobre os animais que ele cadastrou para doação.
 
 FÓRUM (HTML, CSS e JavaScript):
-O fórum é uma funcionalidade adicional que permite aos usuários interagirem por meio de perguntas, comentários e feedback relacionados à adoção de animais. As interações do fórum são salvas no local storage, permitindo que os usuários visualizem e respondam às perguntas e comentários anteriores.
+>O fórum é uma funcionalidade adicional que permite aos usuários interagirem por meio de perguntas, comentários e feedback relacionados à adoção de animais. As interações do fórum são salvas no local storage, permitindo que os usuários visualizem e respondam às perguntas e comentários anteriores.
  
+![Arquitetura de solução](images/arqDeSolucao.png)
 
 ## Arquitetura da solução
 
-IMAGEM 
 No diagrama apresentado, temos páginas HTML, CSS e JavaScript compondo a estrutura do site. O JavaScript interage com o local storage, permitindo que dados sejam salvos localmente no momento do cadastro de perfis e de perguntas, possibilitando a exibição desses dados posteriormente na página de perfil e do fórum. A conexão com a internet possibilita o envio desses dados para o Github Pages, onde o servidor web processa as requisições e envia os recursos solicitados.
+
+![flow](images/flow.png)
 
 # Avaliação da Aplicação
 
-!!!!!!!
+### Cenário: Cadastro de novo usuário
 
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos. 
+• Descrição: Verificar se um novo usuário pode se cadastrar corretamente na aplicação.
+• Passos:
+  ◦	Acessar a página inicial.
+  ◦	Clicar na opção de cadastro.
+  ◦	Preencher o formulário de cadastro com informações válidas.
+  ◦	Enviar o formulário de cadastro.
+•	Resultado esperado: O usuário é cadastrado via localStorage e redirecionado para a página de mural.
+
+### Cenário: Visualização de pets no mural
+
+• Descrição: Verificar se os pets cadastrados são exibidos corretamente no mural.
+• Passos:
+  ◦	Fazer login como um usuário existente.
+  ◦	Acessar a página de mural.
+  ◦	Verificar se a lista de pets cadastrados é exibida.
+• Resultado esperado: A lista de pets é exibida corretamente no mural, mostrando informações como raça, idade e descrição de acordo com os filtros selecionados.
+
+### Cenário: Cadastro de novo pet
+
+• Descrição: Verificar se um usuário pode cadastrar um pet.
+• Passos:
+  ◦	Fazer login como um usuário existente.
+  ◦	Acessar a página de perfil.
+  ◦	Clicar em cadastrar novo pet.
+  ◦	Preencher o formulário de cadastro com informações válidas.
+  ◦	Enviar o formulário de cadastro do pet.
+• Resultado esperado: O pet será exibido no perfil com sucesso e a imagem do mesmo aparecerá no perfil da pessoa.
+
+## Cenário: Interação no fórum
+
+• Descrição: Verificar se os usuários podem interagir corretamente no fórum.
+• Passos:
+  ◦	Fazer login como um usuário existente.
+  ◦	Acessar o fórum.
+  ◦	Realizar uma pergunta ou responder em uma postagem existente.
+  ◦	Verificar se a interação é registrada e exibida corretamente no fórum.
+• Resultado esperado: A interação (pergunta ou resposta) é registrada corretamente e exibida no fórum.
 
 ## Plano de Testes
 
