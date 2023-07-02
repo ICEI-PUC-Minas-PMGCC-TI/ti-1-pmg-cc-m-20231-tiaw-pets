@@ -232,54 +232,73 @@ No diagrama apresentado, temos páginas HTML, CSS e JavaScript compondo a estrut
 
 # Avaliação da Aplicação
 
-### Cenário: Cadastro de novo usuário
+## Cenário: Cadastro de novo usuário
 
 • Descrição: Verificar se um novo usuário pode se cadastrar corretamente na aplicação.
 • Passos:
-  ◦	Acessar a página inicial.
-  ◦	Clicar na opção de cadastro.
-  ◦	Preencher o formulário de cadastro com informações válidas.
-  ◦	Enviar o formulário de cadastro.
+  >	Acessar a página inicial.
+
+  >	Clicar na opção de cadastro.
+
+  >	Preencher o formulário de cadastro com informações válidas.
+
+  >	Enviar o formulário de cadastro.
+
 •	Resultado esperado: O usuário é cadastrado via localStorage e redirecionado para a página de mural.
 
-### Cenário: Visualização de pets no mural
+## Cenário: Visualização de pets no mural
 
 • Descrição: Verificar se os pets cadastrados são exibidos corretamente no mural.
 • Passos:
-  ◦	Fazer login como um usuário existente.
-  ◦	Acessar a página de mural.
-  ◦	Verificar se a lista de pets cadastrados é exibida.
+  >	Fazer login como um usuário existente.
+
+  > Acessar a página de mural.
+
+  >	Verificar se a lista de pets cadastrados é exibida.
+
 • Resultado esperado: A lista de pets é exibida corretamente no mural, mostrando informações como raça, idade e descrição de acordo com os filtros selecionados.
 
-### Cenário: Cadastro de novo pet
+## Cenário: Cadastro de novo pet
 
 • Descrição: Verificar se um usuário pode cadastrar um pet.
 • Passos:
-  ◦	Fazer login como um usuário existente.
-  ◦	Acessar a página de perfil.
-  ◦	Clicar em cadastrar novo pet.
-  ◦	Preencher o formulário de cadastro com informações válidas.
-  ◦	Enviar o formulário de cadastro do pet.
+  >Fazer login como um usuário existente.
+  >	Acessar a página de perfil.
+
+  >	Clicar em cadastrar novo pet.
+
+  >	Preencher o formulário de cadastro com informações válidas.
+
+  >	Enviar o formulário de cadastro do pet.
+
 • Resultado esperado: O pet será exibido no perfil com sucesso e a imagem do mesmo aparecerá no perfil da pessoa.
 
 ## Cenário: Interação no fórum
 
 • Descrição: Verificar se os usuários podem interagir corretamente no fórum.
 • Passos:
-  ◦	Fazer login como um usuário existente.
-  ◦	Acessar o fórum.
-  ◦	Realizar uma pergunta ou responder em uma postagem existente.
-  ◦	Verificar se a interação é registrada e exibida corretamente no fórum.
+  >	Fazer login como um usuário existente.
+
+  >	Acessar o fórum.
+
+  >	Realizar uma pergunta ou responder em uma postagem existente.
+
+  >	Verificar se a interação é registrada e exibida corretamente no fórum.
+
 • Resultado esperado: A interação (pergunta ou resposta) é registrada corretamente e exibida no fórum.
 
-## Plano de Testes
+# Plano de Testes
 
 Considerando os conceitos de teste de software, foram selecionados cenários específicos para avaliar a integridade das funcionalidades. Esses cenários foram escolhidos com base nas dúvidas existentes dentro do grupo de desenvolvimento. Os cenários de teste incluíram:
 
-1)Tentativa de acessar a página sem ter realizado o cadastro prévio.
-2)Cadastro realizado sem inclusão de foto ou sem o preenchimento de outras informações obrigatórias.
-3)Teste com inserção de um excesso de texto ao preencher o campo de nome.
-4)Submissão de imagens em diferentes escalas e formatos para verificar a capacidade de processamento adequada.
+1) Tentativa de acessar a página sem ter realizado o cadastro prévio.
+>	
+2) Cadastro realizado sem inclusão de foto ou sem o preenchimento de outras informações obrigatórias.
+>
+3) Teste com inserção de um excesso de texto ao preencher o campo de nome.
+>	
+4) Submissão de imagens em diferentes escalas e formatos para verificar a capacidade de processamento adequada.
+>
 Os testes foram conduzidos pelo grupo de desenvolvimento, bem como por pessoas próximas, com o objetivo de aprimorar as funcionalidades do sistema e proporcionar uma melhor experiência ao usuário. Essa abordagem permitiu identificar possíveis falhas e realizar ajustes necessários para garantir a efetividade das funcionalidades implementadas.
 
 ## Registros de Testes
