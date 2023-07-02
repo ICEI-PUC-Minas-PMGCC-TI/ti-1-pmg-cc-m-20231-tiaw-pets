@@ -205,6 +205,8 @@ Diante de tudo que foi exposto acerca do impasse, o grupo criou a aplicação we
 Afim de alcançar o objetivo proposto e construir o web app com todas as funcionalidades planejadas foram utilizadas diversas tecnologias,cada uma com sua devida aplicação. Em primeira ánalise, foi utilizado o método de Design Thinking para entender as demandas do possível usúario e elaborar de forma assertiva as funcionalidades a serem implementadas. A respeito da elaboração concreta da aplicação web, foi utilizado o vs code para fins de desenvolvimento de codigo nas linguagens html css e javascript.Além disso, cabe ressaltar o uso da plataforma Figma para os projetos de interface, e do site Pinterest para a procura de imagens que simulem animais cadastrados.
 
 ### DIAGRAMA DO USO 
+![flow](images/flow.png)
+
 O fluxo do site se inicia na página inicial que apresenta as opções de cadastro ou login. Em caso de primeira visita, após preencher o formulário de cadastro e enviar as informações o usuário é redirecionado para a página de mural, que expõe os pets cadastrados e permite o redirecionamento ao perfil detalhado dos mesmos. Apartir deste ponto, o fluxo é livre e o usuário pode optar por navegar pelo mural usufuindo das funcionalidades oferecidas pelo filtro, visualizar suas informações na página de perfil, cadastrar novos pets vinculados a sua conta, ou visitar o fórum de perguntas.
 
 TELA INICIAL (HTML, CSS e JavaScript):
@@ -222,13 +224,14 @@ PERFIL (HTML, CSS e JavaScript):
 FÓRUM (HTML, CSS e JavaScript):
 >O fórum é uma funcionalidade adicional que permite aos usuários interagirem por meio de perguntas, comentários e feedback relacionados à adoção de animais. As interações do fórum são salvas no local storage, permitindo que os usuários visualizem e respondam às perguntas e comentários anteriores.
  
-![Arquitetura de solução](images/arqDeSolucao.png)
+
 
 ## Arquitetura da solução
+![Arquitetura de solução](images/arqDeSolucao.png)
 
 No diagrama apresentado, temos páginas HTML, CSS e JavaScript compondo a estrutura do site. O JavaScript interage com o local storage, permitindo que dados sejam salvos localmente no momento do cadastro de perfis e de perguntas, possibilitando a exibição desses dados posteriormente na página de perfil e do fórum. A conexão com a internet possibilita o envio desses dados para o Github Pages, onde o servidor web processa as requisições e envia os recursos solicitados.
 
-![flow](images/flow.png)
+
 
 # Avaliação da Aplicação
 
