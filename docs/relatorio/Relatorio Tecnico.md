@@ -213,74 +213,71 @@ Diante de tudo que foi exposto acerca do impasse, o grupo criou a aplicação we
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
-Afim de alcançar o objetivo proposto e construir o web app com todas as funcionalidades planejadas foram utilizadas diversas tecnologias,cada uma com sua devida aplicação. Em primeira ánalise, foi utilizado o método de Design Thinking para entender as demandas do possível usúario e elaborar de forma assertiva as funcionalidades a serem implementadas. A respeito da elaboração concreta da aplicação web, 
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário. PAGINA INICIAL(HTML CSS JS)->CADASTRO salva em local sotrage-> HOME pega os pets do json e exibe
->                                                                                                                             //pagina de perfil(exibe o local storage do cadastro)
->                                                                                                                             // forum( salva em local storage e exibe na propria pagina)                                     
-> Inclua os diagramas de User Flow, esboços criados pelo grupo 
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+Afim de alcançar o objetivo proposto e construir o web app com todas as funcionalidades planejadas foram utilizadas diversas tecnologias,cada uma com sua devida aplicação. Em primeira ánalise, foi utilizado o método de Design Thinking para entender as demandas do possível usúario e elaborar de forma assertiva as funcionalidades a serem implementadas. A respeito da elaboração concreta da aplicação web, foi utilizado o vs code para fins de desenvolvimento de codigo nas linguagens html css e javascript.Além disso, cabe ressaltar o uso da plataforma Figma para os projetos de interface, e do site Pinterest para a procura de imagens que simulem animais cadastrados.
+ DIAGRAMA DO USO 
+O fluxo do site se inicia na página inicial que apresenta as opções de cadastro ou login. Em caso de primeira visita, após preencher o formulário de cadastro e enviar as informações o usuário é redirecionado para a página de mural, que expõe os pets cadastrados e permite o redirecionamento ao perfil detalhado dos mesmos. Apartir deste ponto, o fluxo é livre e o usuário pode optar por navegar pelo mural usufuindo das funcionalidades oferecidas pelo filtro, visualizar suas informações na página de perfil, cadastrar novos pets vinculados a sua conta, ou visitar o fórum de perguntas.
+
+TELA INICIAL (HTML, CSS e JavaScript):
+Essa página é a primeira que o usuário acessa ao entrar no site. Ela é construída utilizando HTML, CSS e JavaScript e tem como objetivo apresentar uma visão geral do sistema e fornecer opções de navegação para as demais páginas.
+
+FORMULÁRIO DE CADASTRO (HTML, CSS e JavaScript):
+Nessa página, os usuários podem preencher um formulário com informações pessoais e detalhes sobre o animal que desejam doar. Os dados fornecidos pelo usuário são salvos em local storage, permitindo que sejam acessados posteriormente.
+
+MURAL (HTML, CSS e JavaScript):
+Essa página exibe uma lista de pets cadastrados no sistema, obtidos a partir de um arquivo JSON. Os pets são apresentados de forma organizada e detalhada, fornecendo informações sobre cada animal, como raça, idade e descrição. O objetivo do mural é possibilitar que os usuários interessados em adotar um animal possam visualizar as opções disponíveis.
+
+PERFIL (HTML, CSS e JavaScript):
+Essa página recupera as informações de cadastro armazenadas no local storage e as exibe de forma personalizada para cada usuário. É uma página individualizada que permite ao usuário verificar e editar seus dados, incluindo informações de contato e detalhes sobre os animais que ele cadastrou para doação.
+
+FÓRUM (HTML, CSS e JavaScript):
+O fórum é uma funcionalidade adicional que permite aos usuários interagirem por meio de perguntas, comentários e feedback relacionados à adoção de animais. As interações do fórum são salvas no local storage, permitindo que os usuários visualizem e respondam às perguntas e comentários anteriores.
+ 
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
-
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)html css js local storage ()
-
+IMAGEM 
+No diagrama apresentado, temos páginas HTML, CSS e JavaScript compondo a estrutura do site. O JavaScript interage com o local storage, permitindo que dados sejam salvos localmente no momento do cadastro de perfis e de perguntas, possibilitando a exibição desses dados posteriormente na página de perfil e do fórum. A conexão com a internet possibilita o envio desses dados para o Github Pages, onde o servidor web processa as requisições e envia os recursos solicitados.
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
+!!!!!!!
 
 > Apresente os cenários de testes utilizados na realização dos testes da
 > sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.   FALTA FOTO,FALTA DADOS, COLOCAR MUITO TEXTO,IMAGEM EM ESCALAS DIFERENTES,VERIFICAÇAO D LOGIN
+> sendo satisfeitos. 
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Considerando os conceitos de teste de software, foram selecionados cenários específicos para avaliar a integridade das funcionalidades. Esses cenários foram escolhidos com base nas dúvidas existentes dentro do grupo de desenvolvimento. Os cenários de teste incluíram:
 
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
->  TESTE MANUAL E FEITO PELO GRUPO, TESTOU COM OUTROS USUARIO EXTERNOS
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-
+1)Tentativa de acessar a página sem ter realizado o cadastro prévio.
+2)Cadastro realizado sem inclusão de foto ou sem o preenchimento de outras informações obrigatórias.
+3)Teste com inserção de um excesso de texto ao preencher o campo de nome.
+4)Submissão de imagens em diferentes escalas e formatos para verificar a capacidade de processamento adequada.
+Os testes foram conduzidos pelo grupo de desenvolvimento, bem como por pessoas próximas, com o objetivo de aprimorar as funcionalidades do sistema e proporcionar uma melhor experiência ao usuário. Essa abordagem permitiu identificar possíveis falhas e realizar ajustes necessários para garantir a efetividade das funcionalidades implementadas.
 
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Tentativa de acessar a página sem ter realizado o cadastro prévio:
+Apesar de implementada com sucesso a validação de cadastro antes de acessar o site, o grupo pretende modificar o software e permitir que visitantes também acessem o mural e o fórum de perguntas.
 
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e RESULTADOS DOS TESTES
-> as melhorias geradas a partir dos resultados obtidos nos testes.
+Cadastro realizado sem inclusão de foto ou sem o preenchimento de outras informações obrigatórias:
+Validação implementada corretamente. O software não permite criação de conta em caso de não preenchimento de dados obrigatórios.
+
+Teste com inserção de excesso de texto ao preencher o campo do nome:
+Necessário implementação futura de validação da quantidade de caractéres.No entanto, ainda que o campo do nome seja preenchido com quantidade exorbitante de caractéres a página exibe-os sem perder a responsividade.
+
+Submissão de imagens em diferentes escalas e formatos para verificar a capacidade de processamento adequada:
+A inserção de imagens é feita corretamente. Ainda que o usuário coloque uma foto retangular ou quadrada, a mesma será automaticamente apresentada no formato circular.Futuramente, planeja-se implementar a funcionalidade de ajustar a foto dentro do espaço.
 
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
-PINTEREST FIGMA 
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
+Pinterest. Pinterest. [s.d.]. Disponível em: https://www.pinterest.com/. Acesso em: 8 de junho de 2023.
+
+Figma. Figma.  [s.d.]. Disponível em: https://www.figma.com/. Acesso em: 10 de abril de 2023.
+
+
 > **Links Úteis**:
 > - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
 > - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
